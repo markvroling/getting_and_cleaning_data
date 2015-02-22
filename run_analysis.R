@@ -7,9 +7,7 @@ features     = read.table('./UCI HAR Dataset/features.txt',header=FALSE);
 xTrain       = read.table('./UCI HAR Dataset/train/x_train.txt',header=FALSE);
 yTrain       = read.table('./UCI HAR Dataset/train/y_train.txt',header=FALSE); 
 subjectTest  = read.table('./UCI HAR Dataset/test/subject_test.txt',header=FALSE); 
-xTest        = read.table('./UCI HAR Datase
-                          
-                          t/test/x_test.txt',header=FALSE); 
+xTest        = read.table('./UCI HAR Dataset/test/x_test.txt',header=FALSE); 
 yTest        = read.table('./UCI HAR Dataset/test/y_test.txt',header=FALSE); 
 
 
