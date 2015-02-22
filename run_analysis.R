@@ -34,7 +34,7 @@ rightLabels <- grepl("subject|activity|mean|std", names)
 totalData = totalData[,rightLabels]
 
 #assign names of activity to dataset
-totalData = merge(x = totalData, y = activity, by = "activityId", all.x = T,)
+totalData = merge(x = totalData, y = activity, by = "activityId", all.x = T)
 totalData$activityId = totalData$activityType
 
 
